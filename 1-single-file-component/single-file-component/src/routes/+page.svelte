@@ -10,3 +10,12 @@ function increment(){
 
 <p>Clicked {count} {count <= 1 ? 'time' : 'times'}</p>
 <button on:click={increment}>click</button>
+
+
+<style>
+
+p {
+    color: teal;
+}
+
+</style>
